@@ -1,0 +1,42 @@
+h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #30323d;
+}
+
+.playerList{
+    font-size:2rem;
+    list-style-type: none;
+    font-weight: bold;
+    border: solid #30323d 3px;
+    background-color: #e8c547;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 7px 20px;
+    color: #27539f;
+}
+
+.playerList button {
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    border: solid #30323d 2px; 
+    border-radius: 4px ;
+    cursor: pointer;
+}
+
+.resetButton {
+    width: 9rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: #4d5061;
+    border: solid black 3px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
